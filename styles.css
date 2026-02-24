@@ -1,0 +1,197 @@
+/* Iris-style 2000s Styling - Black Background */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    color: #A0823D;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    table[width="800"] {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    
+    .nav-column {
+        display: none;
+    }
+    
+    td[width="150"] {
+        width: 100% !important;
+        display: block;
+    }
+    
+    td[width="*"] {
+        width: 100% !important;
+        display: block;
+    }
+}
+
+/* Link styling for dark background */
+a {
+    color: #A0823D;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #A0823D;
+}
+
+a:hover {
+    color: #A0823D;
+}
+
+/* Navigation link styling - brown like the P in logo */
+.nav-column a,
+.mobile-nav a {
+    color: #A0823D !important;
+    text-decoration: underline;
+}
+
+.nav-column a:visited,
+.mobile-nav a:visited {
+    color: #A0823D !important;
+}
+
+.nav-column a:hover,
+.mobile-nav a:hover {
+    color: #A0823D !important;
+}
+
+/* Cool bordered boxes - classic 2000s inset/outset style */
+.bordered-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #666666;
+    border-bottom-color: rgb(0, 51, 102);
+    background-color: #1A1A1A;
+    color: rgb(160, 130, 61);
+}
+
+table.bordered-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #666666;
+    border-bottom-color: rgb(0, 51, 102);
+    background-color: #1A1A1A;
+    color: rgb(160, 130, 61);
+}
+
+table.bordered-box *,
+table.bordered-box font,
+table.bordered-box td,
+table.bordered-box p,
+table.bordered-box b,
+table.bordered-box i {
+    color: rgb(160, 130, 61) !important;
+}
+
+table.bordered-box a {
+    color: rgb(160, 130, 61) !important;
+}
+
+/* Enhanced border styling for that classic look */
+table[border="2"] {
+    border-style: solid;
+    border-color: #666666;
+    border-bottom-color: rgb(0, 51, 102);
+    background-color: #1A1A1A;
+    color: rgb(160, 130, 61);
+}
+
+table[border="2"] *,
+table[border="2"] font,
+table[border="2"] td,
+table[border="2"] p,
+table[border="2"] b,
+table[border="2"] i {
+    color: rgb(160, 130, 61) !important;
+}
+
+table[border="2"] a {
+    color: rgb(160, 130, 61) !important;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+}
+
+/* Image styling */
+.main-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.header-photo {
+    display: block;
+}
+
+.section-header-img {
+    display: block;
+}
+
+.content-image {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Mobile navigation */
+@media (max-width: 768px) {
+    .mobile-nav {
+        display: block !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #1A1A1A;
+        border-top: 2px solid #666666;
+        padding: 10px;
+        z-index: 1000;
+    }
+    
+    .mobile-nav table {
+        width: 100%;
+    }
+    
+    .mobile-nav td {
+        padding: 5px;
+    }
+    
+    .mobile-nav a {
+        color: #A0823D !important;
+    }
+    
+    .mobile-nav a:visited {
+        color: #A0823D !important;
+    }
+    
+    .mobile-nav a:hover {
+        color: #A0823D !important;
+    }
+    
+    body {
+        padding-bottom: 60px;
+    }
+    
+    .main-logo {
+        width: 100% !important;
+        max-width: 300px;
+    }
+    
+    .header-photo {
+        width: 100% !important;
+        max-width: 100px;
+    }
+    
+    .section-header-img {
+        width: 55px !important;
+        max-width: 55px;
+    }
+    
+    .content-image {
+        width: 100% !important;
+    }
+}
